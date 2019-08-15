@@ -1,0 +1,53 @@
+/* --------------------------------------------------------------------------------- */
+/* ----------  This CSS should work on user & character profiles  ------------------ */
+/* ----------     USER profiles will work with "flatly" html  ---------------------- */
+/* --------------------------------------------------------------------------------- */
+/* ---------- character profiles you gotta write your own html --------------------- */
+/* --------------------------------------------------------------------------------- */
+
+
+/* page background color */
+$bg_color: #fff;
+
+/* page background image -- this is optional -- leave blank for no bg image */
+$bg_image: "IMG URL";
+
+
+
+/* primary color - the main highlight color */
+$primary: #F3969A;
+
+
+/* TH header bar background color -- will have white font */
+$header: #1a1a1a;
+
+
+
+/* content area background color -- for areas where your text appears */
+$body: #fff;
+
+/* faded background color -- used in bg faded class */
+$bg_faded: darken($body,5%);
+
+
+/* main font color */
+$font: #1a1a1a;
+
+
+
+/* ----- BOOTSTRAP CLASSES ---------------------------------- */
+/* SUCCESS color */
+$succ: #4BBF73;
+
+/* DANGER color */
+$danger: #d9534f;
+
+/* WARNING color */
+$warning: #f0ad4e;
+
+/* INFO color */
+$info: #1F9BCF;
+
+
+/* CSS import link */
+@import '0/858/OL4ZiQ/user-pivot';

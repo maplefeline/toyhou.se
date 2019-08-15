@@ -1,0 +1,40 @@
+/* --------------------------------------------------------------------------------- */
+/* ----------  This CSS is intended for character profiles  ------------------------ */
+/* ----------  to be used with the provided "Thin" html  --------------------------- */
+/* --------------------------------------------------------------------------------- */
+
+
+/* page background - can change to a solid color if you want */
+$bg_color: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/e0879697-f182-4807-b3a1-0581153e37e5/dcnzrit-cf92b582-47ef-4c67-a5e0-fc12d6e9d910.png") fixed;
+
+
+/* content section backgrounds */
+$body: #fff;
+
+
+/* main font color */
+$font: #3b4446;
+
+
+/* primary color - links & primary buttons */
+$primary: #47395c;
+
+
+/* border color */
+$border_alt: rgba(0,0,0,.125);
+
+
+/* faded background color */
+$bg_faded: #f8f8f8;
+
+
+/* border radius -- 0 for sharp corners -- 0.25em for rounded -- */
+$radius: 0;
+
+
+/* turn off links & worlds in navbar */
+#sidebar li.sidebar-li-worlds, #sidebar li.sidebar-li-links {display:none;}
+
+
+/* CSS IMPORT LINK */
+@import '0/506/SxVqP0/thin';
